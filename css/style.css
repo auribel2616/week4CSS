@@ -1,18 +1,65 @@
 
-body{
-    background-color: wheat
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box; 
 }
 
 
-
-p{
-    color:blue;
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
 }
 
-h2{
-    color:brown;
+
+header {
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', sans-serif; 
+    font-size: 40pt; 
+    color: black;
+}
+
+h2 {
+    font-family: 'Times New Roman' , sans-serif;
+    font-size: 30pt;
+    color: black
 
 }
-.orange{
-    color:orange
+
+p {
+    font-family: 'Arial', serif;
+    font-size: 1em; 
+    color: black;
+}
+
+
+section {
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid #ddd;
+}
+
+img {
+    display: block;
+    margin: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: wheat;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10; 
 }
